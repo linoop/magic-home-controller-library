@@ -1,0 +1,14 @@
+{
+  "name": "MagicHomeClient",
+  "version": "0.1.0",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "description": "ESP32 Magic Home client library",
+  "headers": ["MagicHomeClient.h"],
+  "dependencies": [
+    {"name": "links2004/WebSockets", "version": "^2.4.1"},
+    {"name": "bblanchon/ArduinoJson", "version": "^6.21.3"},
+    {"name": "adafruit/DHT sensor library", "version": "^1.4.4"},
+    {"name": "adafruit/Adafruit Unified Sensor", "version": "^1.1.9"}
+  ]
+}
